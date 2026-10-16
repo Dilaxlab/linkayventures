@@ -20,7 +20,7 @@ export default function HeroSlider() {
       ============================================================ */}
       <div className="absolute inset-0 z-0 overflow-hidden bg-transparent pointer-events-none">
         <Image
-          src="/images/LV4.png"
+          src="/images/LV3.png"
           alt="Real Assets Token Orbit"
           fill
           priority
@@ -35,9 +35,7 @@ export default function HeroSlider() {
         {/* Bottom fade - soft */}
         <div className="absolute inset-x-0 bottom-0 h-32 sm:h-44 bg-gradient-to-t from-[#DDE2E8]/80 via-[#DDE2E8]/30 to-transparent pointer-events-none" />
 
-        {/* ❌ REMOVED: Left-side hard gradient (this was causing the visible border) */}
 
-        {/* ❌ REMOVED: Radial gradient box (this was causing the box outline) */}
 
         {/* Mobile subtle shade */}
         <div className="sm:hidden absolute inset-0 bg-gradient-to-b from-[#DDE2E8]/40 via-transparent to-[#DDE2E8]/50 pointer-events-none" />
@@ -47,7 +45,6 @@ export default function HeroSlider() {
           MAIN HERO CONTENT - CLEAN, NO BORDER BOX
       ============================================================ */}
       <div className="relative z-10 mx-auto flex w-full max-w-[1100px] flex-1 flex-col items-center justify-center px-4 sm:px-6 text-center">
-        {/* ❌ REMOVED the radial gradient "mist" box that created the visible border */}
 
         {/* Eyebrow */}
         <div className="mb-6 inline-flex items-center gap-2">
